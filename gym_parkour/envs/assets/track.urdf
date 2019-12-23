@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<robot name="track">
+  <link name="track">
+    <inertial>
+      <mass value="0.0" />
+      <inertia ixx="0.0" ixy="0.0" ixz="0.0" iyy="0.0" iyz="0.0" izz="0.0" />
+    </inertial>
+    <visual name='track_visual'>
+      <geometry>
+        <mesh filename="RoboyParkourChallengeTrack-Simplistic-2019-09-19.stl" scale="0.001 0.001 0.0012">
+        </mesh>
+      </geometry>
+    </visual>
+    <collision name='track_collision'>
+      <geometry>
+        <mesh filename="RoboyParkourChallengeTrack-Simplistic-2019-09-19.stl" scale="0.001 0.001 0.0012">
+        </mesh>
+      </geometry>
+    </collision>
+  </link>
+</robot>
